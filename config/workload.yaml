@@ -5,7 +5,7 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: blockchain-api
-    apps.tanzu.vmware.com/has-tests: true
+    apps.tanzu.vmware.com/has-tests: "true"
     apis.apps.tanzu.vmware.com/register-api: "true"
 spec:
   serviceClaims:
@@ -17,7 +17,7 @@ spec:
   build:
     env:
       - name: BP_JVM_VERSION
-        value: 17
+        value: "17"
   params:
     - name: annotations
       value:
@@ -34,5 +34,4 @@ spec:
     git:
       ref:
         branch: main
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
-    subPath: java-rest-service
+      url: https://github.com/cdelashmutt-pivotal/blockchain-api
