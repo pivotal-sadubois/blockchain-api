@@ -7,13 +7,15 @@ metadata:
     app.kubernetes.io/part-of: blockchain-api
     apps.tanzu.vmware.com/has-tests: "true"
     apis.apps.tanzu.vmware.com/register-api: "true"
+  annotations:
+    autoscaling.knative.dev/minScale: "1"
 spec:
   serviceClaims:
     - name: db
       ref:
         apiVersion: sql.tanzu.vmware.com/v1
         kind: Postgres
-        name: customer-profile-database
+        name: blockchain-database
   build:
     env:
       - name: BP_JVM_VERSION
@@ -27,9 +29,9 @@ spec:
         type: openapi
         location: 
           path: "/api-docs"
-        owner: 
-        system: 
-        description: 
+        owner: Tanzu SEs
+        system: Blockchain APIS
+        description: This is a blockchain api
   source:
     git:
       ref:

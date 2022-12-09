@@ -7,6 +7,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: default-team
+  owner: tanzu-se-southeast-team
   providesApis:
     - blockchain-api
