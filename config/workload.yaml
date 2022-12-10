@@ -29,8 +29,8 @@ spec:
         type: openapi
         location: 
           path: "/api-docs"
-        owner: Tanzu SEs
-        system: Blockchain APIS
+        owner: blockchain-api-team
+        system: blockchain
         description: This is a blockchain api
   source:
     git:
