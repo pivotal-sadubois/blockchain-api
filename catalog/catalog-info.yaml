@@ -9,4 +9,4 @@ spec:
   lifecycle: experimental
   owner: tanzu-se-southeast-team
   providesApis:
-    - blockchain-api
+    - blockchain-api/blockchain-api-dev
