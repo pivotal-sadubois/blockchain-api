@@ -9,5 +9,5 @@ spec:
   targets:
     - ./components/blockchain-api.yaml
     - ./groups/tanzu-se-southeast-team.yaml
-    - ./systems/blockchain.yaml
+    - ./systems/blockchain-system.yaml
     - ./domain/blockchain-domain.yaml
