@@ -5,5 +5,5 @@ metadata:
   namespace: blockchain-api
   description: Blockchain System
 spec:
-  owner: tanzu-se-southeast-team
+  owner: blockchain-api-team
   domain: tap-gui-domain
