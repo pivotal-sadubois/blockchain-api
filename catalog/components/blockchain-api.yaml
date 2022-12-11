@@ -9,5 +9,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: blockchain-api-team
+  system: blockchain
   providesApis:
     - blockchain-api-dev
