@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: blockchain-apis/blockchain-api-team
+  name: blockchain-api-team
+  namespace: blockchain-apis
   description: Blockchain API Team
 spec:
   type: team
