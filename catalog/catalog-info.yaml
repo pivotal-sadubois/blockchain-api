@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-gui-catalog-info
-  description: A sample catalog for Backstage
+  name: blockchain-api
+  namespace: blockchain-api
+  description: Locations for blockchain-api
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:

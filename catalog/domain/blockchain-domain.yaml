@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: blockchain-domain
-  namespace: blockchain-apis
+  namespace: blockchain-api
   description: The domain of the blockchain system
 #  links:
 #    - url: http://example.com/domain/cloud-apps/
