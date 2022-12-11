@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: blockchain-api/blockchain
+  name: blockchain
+  namespace: blockchain-api
   description: Blockchain System
 spec:
   owner: tanzu-se-southeast-team
