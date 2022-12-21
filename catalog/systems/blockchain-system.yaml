@@ -6,4 +6,4 @@ metadata:
   description: Blockchain System
 spec:
   owner: blockchain-api-team
-  domain: tap-gui-domain
+  domain: blockchain-domain
