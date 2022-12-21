@@ -11,4 +11,4 @@ spec:
   owner: blockchain-api-team
   system: blockchain
   providesApis:
-    - blockchain-api-dev
+    - blockchain-api-contour.e2e.corby.cc
