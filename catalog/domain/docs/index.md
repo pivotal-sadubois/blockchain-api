@@ -1,4 +1,4 @@
-# Blockchain APIs
+# Blockchain Domain
 
 ![Blockchain Workflow Diagram](https://upload.wikimedia.org/wikipedia/commons/3/3a/Blockchain_workflow.png)
 

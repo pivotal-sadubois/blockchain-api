@@ -4,6 +4,8 @@ metadata:
   name: blockchain-domain
   namespace: blockchain-api
   description: The domain of the blockchain system
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
 #  links:
 #    - url: http://example.com/domain/cloud-apps/
 #      title: Domain Readme
