@@ -7,9 +7,9 @@ metadata:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
     'backstage.io/techdocs-ref': dir:.
   links:
-  - url: "https://vmware.wavefront.com/u/gdq77TV7mG?t=map-sales-sandbox"
-    title: Dashboard
-    icon: dashboard
+    - url: "https://vmware.wavefront.com/u/gdq77TV7mG?t=map-sales-sandbox"
+      title: Dashboard
+      icon: dashboard
 
 spec:
   type: service
