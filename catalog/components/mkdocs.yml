@@ -1,4 +1,4 @@
-site_name: 'Blockchain API Docs'
+site_name: 'Blockchain API Component Docs'
 
 nav:
   - Overview: index.md

@@ -4,6 +4,10 @@ metadata:
   name: blockchain-api-team
   namespace: blockchain-api
   description: Blockchain API Team
+  links:
+    - url: https://vmware.slack.com/archives/C03V4CG0FT8
+      title: Tanzu SE Slack channel
+      icon: chat
 spec:
   type: team
   profile:

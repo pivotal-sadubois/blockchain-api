@@ -1,6 +1,9 @@
-# Blockchain APIs
+# Blockchain Backstage Documentation
 
-![Blockchain Workflow Diagram](https://upload.wikimedia.org/wikipedia/commons/3/3a/Blockchain_workflow.png)
+Welcome!  You've reached docs for the location of the Blockchain API.  This site is a [Backstage Techdocs](https://backstage.io/docs/features/techdocs/creating-and-publishing) site.  It is generated from markdown that is added to the project repository.
 
-A blockchain is “a distributed database that maintains a continuously growing list of ordered records, called blocks.” These blocks “are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. A blockchain is a decentralized, distributed and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the consensus of the network.” -- Wikipedia, https://en.wikipedia.org/wiki/Blockchain
+You can edit and add to this documentation by submitting PRs to the git repository for this project under the "catalog" directory, which is a [Backstage catalog](https://backstage.io/docs/features/software-catalog/software-catalog-overview).  
 
+Each directory under the "catalog" directory cooresponds to a type of [Backstage entity](https://backstage.io/docs/features/software-catalog/system-model).  Those subfolders of the catalog folder have a "docs" subfolder cooresponding to the documentation definied for that entity or group of entities.
+
+One your PR is accepted, an automated process with regenerate the documentation, and you should see your changes on the portal typically within a few minutes.
