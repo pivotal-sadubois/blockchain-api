@@ -9,6 +9,6 @@ metadata:
 spec:
   targets:
     - ./components/blockchain-api.yaml
-    - ./groups/tanzu-se-southeast-team.yaml
+    - ./groups/blockchain-team.yaml
     - ./systems/blockchain-system.yaml
     - ./domain/blockchain-domain.yaml
