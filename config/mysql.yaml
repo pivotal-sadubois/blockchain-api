@@ -1,0 +1,6 @@
+apiVersion: with.sql.tanzu.vmware.com/v1
+kind: MySQL
+metadata:
+  name: db
+spec:
+  imagePullSecretName: registry-credentials
