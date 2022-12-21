@@ -1,0 +1,8 @@
+site_name: 'Blockchain API Docs'
+
+nav:
+  - Overview: index.md
+  - Adding Documentation: add-docs.md
+
+plugins:
+  - techdocs-core
