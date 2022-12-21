@@ -8,8 +8,8 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
   links:
   - url: https://vmware.wavefront.com/u/gdq77TV7mG?t=map-sales-sandbox
-      title: Dashboard
-      icon: dashboard
+    title: Dashboard
+    icon: dashboard
 
 spec:
   type: service
