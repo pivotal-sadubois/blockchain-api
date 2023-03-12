@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: blockchain-api
-  namespace: blockchain-api
   description: Locations for blockchain-api
   annotations:
     'backstage.io/techdocs-ref': dir:.
