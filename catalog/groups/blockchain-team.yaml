@@ -1,8 +1,11 @@
-apiVersion: backstage.io/v1alpha1
+alog/components/blockchain-api.yaml
+catalog/systems/blockchain-system.yaml
+catalog/domain/blockchain-domain.yaml
+catalog/catalog-info.yaml
+piVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: blockchain-api-team
-  namespace: blockchain-api
   description: Blockchain API Team
   links:
     - url: https://vmware.slack.com/archives/C03V4CG0FT8
@@ -21,22 +24,31 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: cdelashmutt
-  namespace: blockchain-api
 spec:
   profile:
     displayName: Chris DeLashmutt
     email: cdelashmutt@vmware.com
     picture: https://www.gravatar.com/avatar/8b3c258bf02ddf159a968d6b61f57d69
-  memberOf: [blockchain-api/blockchain-api-team]
+  memberOf: [blockchain-api-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sdubois
+spec:
+  profile:
+    displayName: Sacha Dubois
+    email: sdubois@vmware.com
+    picture: https://secure.gravatar.com/avatar/b40de695b3a53ccf3ab2ca398a504566?s=64
+  memberOf: [blockchain-api-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: nitashav
-  namespace: blockchain-api
 spec:
   profile:
     displayName: Nitasha Verma
     email: nitashav@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [blockchain-api/blockchain-api-team]
+  memberOf: [blockchain-api-team]
