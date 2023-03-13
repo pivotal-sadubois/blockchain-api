@@ -1,14 +1,10 @@
-alog/components/blockchain-api.yaml
-catalog/systems/blockchain-system.yaml
-catalog/domain/blockchain-domain.yaml
-catalog/catalog-info.yaml
-piVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: blockchain-api-team
   description: Blockchain API Team
   links:
-    - url: https://vmware.slack.com/archives/C03V4CG0FT8
+    - url: "https://vmware.slack.com/archives/C03V4CG0FT8"
       title: Tanzu SE Slack channel
       icon: chat
 spec:
@@ -16,7 +12,7 @@ spec:
   profile:
     displayName: Blockchain API Team
     email: tanzu-se-southeast@vmware.com
-    picture: https://blogs.vmware.com/cloudprovider/files/2021/09/logo-vmware-tanzu-square-Header-327x324.png
+    picture: "https://blogs.vmware.com/cloudprovider/files/2021/09/logo-vmware-tanzu-square-Header-327x324.png"
   parent: tanzu-se-org
   children: []
 ---
@@ -28,7 +24,7 @@ spec:
   profile:
     displayName: Chris DeLashmutt
     email: cdelashmutt@vmware.com
-    picture: https://www.gravatar.com/avatar/8b3c258bf02ddf159a968d6b61f57d69
+    picture: "https://www.gravatar.com/avatar/8b3c258bf02ddf159a968d6b61f57d69"
   memberOf: [blockchain-api-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -39,7 +35,7 @@ spec:
   profile:
     displayName: Sacha Dubois
     email: sdubois@vmware.com
-    picture: https://secure.gravatar.com/avatar/b40de695b3a53ccf3ab2ca398a504566?s=64
+    picture: "https://secure.gravatar.com/avatar/b40de695b3a53ccf3ab2ca398a504566?s=64"
   memberOf: [blockchain-api-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -50,5 +46,5 @@ spec:
   profile:
     displayName: Nitasha Verma
     email: nitashav@vmware.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+    picture: "https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff"
   memberOf: [blockchain-api-team]
