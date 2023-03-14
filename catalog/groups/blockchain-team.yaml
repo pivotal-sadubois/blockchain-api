@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: blockchain-api-team
+  namespace: blockchain
   description: Blockchain API Team
   links:
     - url: "https://vmware.slack.com/archives/C03V4CG0FT8"
@@ -20,6 +21,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: cdelashmutt
+  namespace: blockchain
 spec:
   profile:
     displayName: Chris DeLashmutt
@@ -31,6 +33,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: sdubois
+  namespace: blockchain
 spec:
   profile:
     displayName: Sacha Dubois
@@ -42,6 +45,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: nitashav
+  namespace: blockchain
 spec:
   profile:
     displayName: Nitasha Verma

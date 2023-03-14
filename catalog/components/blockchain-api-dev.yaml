@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: blockchain-api
+  name: blockchain-api-dev
   namespace: blockchain
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
@@ -13,7 +13,7 @@ metadata:
 
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: dev
   owner: blockchain-api-team
   system: blockchain
   providesApis:
