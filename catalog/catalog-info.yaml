@@ -10,6 +10,7 @@ spec:
   targets:
     - ./components/blockchain-api.yaml
     - ./components/blockchain-api-dev.yaml
+    - ./resources/blockchain-database.yaml
     - ./groups/blockchain-team.yaml
     - ./systems/blockchain-system.yaml
     - ./domain/blockchain-domain.yaml
