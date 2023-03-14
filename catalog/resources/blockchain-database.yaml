@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: blockchain-database-0
+  namespace: blockchain
   description: VMware Tanzu SQL with Postgres database for storing orders
   annotations:
     'backstage.io/techdocs-ref': dir:../
