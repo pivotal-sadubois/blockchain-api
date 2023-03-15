@@ -14,3 +14,4 @@ spec:
     - ./groups/blockchain-team.yaml
     - ./systems/blockchain-system.yaml
     - ./domain/blockchain-domain.yaml
+    - ./api/blockchain-api.yaml
