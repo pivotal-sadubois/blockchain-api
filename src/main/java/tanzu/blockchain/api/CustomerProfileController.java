@@ -5,7 +5,8 @@ import java.net.URI;
 import tanzu.blockchain.domain.CustomerProfileCreateRequest;
 import tanzu.blockchain.domain.CustomerProfileResponse;
 import tanzu.blockchain.domain.CustomerProfileService;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.headers.Header;
@@ -35,7 +36,8 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/customer-profiles")
 public class CustomerProfileController {
-
+    LOGGER.debug("Start Debug");
+    private static final Logger LOGGER = LoggerFactory.getLogger(CustomerProfileController.class);
     private final CustomerProfileService service;
 
     public CustomerProfileController(CustomerProfileService service) {
@@ -79,6 +81,8 @@ public class CustomerProfileController {
     })
     @GetMapping("/{id}")
     public ResponseEntity<CustomerProfileResponse> get(@PathVariable("id") String id) {
+        //LOGGER.debug("A user with name " + user.getId() + "exist.");
+        LOGGER.debug("A user with name k");
         var customerProfileResponse = service.getById(id);
         return customerProfileResponse.isEmpty()
                 ? ResponseEntity.notFound().build()
