@@ -14,7 +14,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: blockchain-api-team
-  system: blockchain
+  system: blockchain/blockchain
   domain: blockchain-domain
   definition: |
     openapi: "3.0.0"
