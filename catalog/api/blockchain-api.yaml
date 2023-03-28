@@ -1,8 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: demo-api
+  name: demo-api1
   description: The demo API for Tanzu Application Platform GUI
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
+    'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://api.agify.io
       title: API Definition
