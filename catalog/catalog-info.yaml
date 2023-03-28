@@ -7,11 +7,10 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/yelb-ui/yelb-ui.yaml
-    - ./components/redis-server/redis-server.yaml
-    - ./components/yelb-db/yelb-db.yaml
-    - ./components/yelb-appserver/yelb-appserver.yaml
-    - ./groups/org.yaml
-    - ./systems/yelb-system.yaml
-    - ./resources/yelb-db-resource.yaml
-    - ./domains/cloudapps-domain.yaml
+    - ./components/blockchain-api.yaml
+    - ./components/blockchain-api-dev.yaml
+    - ./resources/blockchain-database.yaml
+    - ./groups/blockchain-team.yaml
+    - ./systems/blockchain-system.yaml
+    - ./domain/blockchain-domain.yaml
+    - ./api/blockchain-api.yaml
