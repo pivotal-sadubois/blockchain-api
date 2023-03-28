@@ -9,12 +9,24 @@ metadata:
   links:
     - url: "https://vmware.wavefront.com/u/gdq77TV7mG?t=map-sales-sandbox"
       title: Dashboard
-      icon: dashboard
 
 spec:
   type: service
   lifecycle: experimental
   owner: blockchain-api-team
   system: blockchain
+    definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
   providesApis:
     - blockchain-api-contour.e2e.corby.cc
