@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: demo-api1
+  name: demo-api2
   description: The demo API for Tanzu Application Platform GUI
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
@@ -15,3 +15,17 @@ spec:
   lifecycle: experimental
   owner: blockchain-api-team
   domain: blockchain-domain
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
+
