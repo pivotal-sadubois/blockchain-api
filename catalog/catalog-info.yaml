@@ -1,10 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: yelb-catalog-info
-  description: A sample catalog for the yelb application
+  name: blockchain-api
+  namespace: blockchain
+  description: Locations for blockchain-api
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
+    - ./components/blockchain-api.yaml
+    - ./components/blockchain-api-dev.yaml
+    - ./resources/blockchain-database.yaml
+    - ./groups/blockchain-team.yaml
+    - ./systems/blockchain-system.yaml
+    - ./domain/blockchain-domain.yaml
     - ./api/blockchain-api.yaml
