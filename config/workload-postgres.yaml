@@ -31,9 +31,9 @@ spec:
         type: openapi
         location: 
           path: "/api-docs"
-        owner: blockchain-api-team
-        system: blockchain
-        description: This is a blockchain api
+        owner: blockchain/blockchain-api-team
+        system: blockchain-system
+        description: This is a blockchain api 2
   source:
     git:
       ref:
