@@ -4,6 +4,8 @@ metadata:
   name: blockchain-system
   namespace: blockchain
   description: Blockchain System
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
 spec:
   owner: blockchain-api-team
   domain: blockchain-domain
