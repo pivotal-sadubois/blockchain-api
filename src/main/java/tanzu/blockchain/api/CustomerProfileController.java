@@ -33,12 +33,13 @@ import javax.validation.Valid;
         tags = @Tag(
                 name = "Customer Profile REST API"))
 @CrossOrigin
-@RestController
+@RestController("customer")
 @RequestMapping("/api/customer-profiles")
 public class CustomerProfileController {
-    LOGGER.debug("Start Debug");
     private static final Logger LOGGER = LoggerFactory.getLogger(CustomerProfileController.class);
     private final CustomerProfileService service;
+
+
 
     public CustomerProfileController(CustomerProfileService service) {
         this.service = service;
@@ -82,8 +83,13 @@ public class CustomerProfileController {
     @GetMapping("/{id}")
     public ResponseEntity<CustomerProfileResponse> get(@PathVariable("id") String id) {
         //LOGGER.debug("A user with name " + user.getId() + "exist.");
-        LOGGER.debug("A user with name k");
+        //LOGGER.info("A user with name k" + get(@PathVariable("id") String id));
+        LOGGER.info("info gaga-1");
+        LOGGER.info("info gaga-2 id:" + id);
+        LOGGER.debug("debug gaga-1");
         var customerProfileResponse = service.getById(id);
+        LOGGER.info("info gaga-33 id:" + customerProfileResponse);
+        LOGGER.info("info gaga-44 id:" + id);
         return customerProfileResponse.isEmpty()
                 ? ResponseEntity.notFound().build()
                 : ResponseEntity.ok(customerProfileResponse.get());
