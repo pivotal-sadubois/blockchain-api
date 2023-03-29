@@ -15,6 +15,6 @@ spec:
   type: service
   lifecycle: dev
   owner: blockchain-api-team
-  system: blockchain
+  system: blockchain-system
   providesApis:
     - blockchain-api-contour.e2e.corby.cc
