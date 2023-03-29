@@ -9,4 +9,4 @@ metadata:
 spec:
   type: database
   owner: blockchain-api-team
-  system: blockchain
+  system: blockchain-system
