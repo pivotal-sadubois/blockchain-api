@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-api2
+  namespace: blockchain
+  description: This API create and receives customer profiles
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://api.agify.io
+      title: API Definition
+      icon: docs
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: blockchain/blockchain-api-team
+  system: blockchain/blockchain
+  domain: blockchain/blockchain-domain
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
+    servers:
+      - url: http://artist.spotify.net/v1
+    paths:
+      /artists:
+        get:
+          summary: List all artists
+
