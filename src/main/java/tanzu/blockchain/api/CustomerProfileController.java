@@ -84,11 +84,11 @@ public class CustomerProfileController {
     public ResponseEntity<CustomerProfileResponse> get(@PathVariable("id") String id) {
         //LOGGER.debug("A user with name " + user.getId() + "exist.");
         //LOGGER.info("A user with name k" + get(@PathVariable("id") String id));
-        LOGGER.info("info gaga-1");
+        LOGGER.info("info gaga-111");
         LOGGER.info("info gaga-2 id:" + id);
         LOGGER.debug("debug gaga-1");
         var customerProfileResponse = service.getById(id);
-        LOGGER.info("info gaga-33 id:" + customerProfileResponse);
+        LOGGER.info("info gaga-333 id:" + customerProfileResponse);
         LOGGER.info("info gaga-444 id:" + id);
         return customerProfileResponse.isEmpty()
                 ? ResponseEntity.notFound().build()

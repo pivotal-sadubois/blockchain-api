@@ -2,10 +2,11 @@ SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='nitashav.azurecr.io/tap-dev/bl
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 OUTPUT_TO_NULL_COMMAND = os.getenv("OUTPUT_TO_NULL_COMMAND", default=' > /dev/null ')
+allow_k8s_contexts('tdh-vsphere-sadubois-tap')
 
 k8s_custom_deploy(
     'blockchain-api',
-    apply_cmd="tanzu apps workload apply -f config/workload.yaml --debug --live-update" +
+    apply_cmd="tanzu apps workload apply -f config/workload-postgres.yaml --debug --live-update" +
               " --local-path " + LOCAL_PATH +
               " --source-image " + SOURCE_IMAGE +
               " --namespace " + NAMESPACE +
