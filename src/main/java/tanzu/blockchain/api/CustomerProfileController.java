@@ -89,7 +89,7 @@ public class CustomerProfileController {
         LOGGER.debug("debug gaga-1");
         var customerProfileResponse = service.getById(id);
         LOGGER.info("info gaga-33 id:" + customerProfileResponse);
-        LOGGER.info("info gaga-44 id:" + id);
+        LOGGER.info("info gaga-444 id:" + id);
         return customerProfileResponse.isEmpty()
                 ? ResponseEntity.notFound().build()
                 : ResponseEntity.ok(customerProfileResponse.get());
