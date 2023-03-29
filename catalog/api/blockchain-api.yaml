@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: demo-api2
+  namespace: backstage
   description: The demo API for Tanzu Application Platform GUI
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=blockchain-api"
